@@ -13,9 +13,14 @@
     </header>
     <main class="login">
         <form method="post" action="registro.php">
-            <input type="text" name="nome" id="lName" size="30" maxlength="40" placeholder="Nome"></br>
-            <input type="date" name="dataN" id="lDataN"></br>
-            <input type="email" name="email" id="lEmail" size="30" maxlength="45" placeholder="E-mail">
+            <label for="lName">Nome:</label>
+            <input type="text" name="nome" id="lName" size="20" maxlength="40" placeholder="Nome"></br>
+            <label for="lDataN">Nascimento</label>
+            <input type="date" name="dataN" id="lDataN" size="30" maxlength="45"></br>
+            <label for="lEmail">Email:</label>
+            <input type="email" name="email" id="lEmail" size="20" maxlength="45" placeholder="E-mail">
+            <label for="Lsenha">Senha:</label>
+            <input type="password" name="senha" id="Lsenha" size="20" maxlength="45" placeholder="Senha" >
         </form>
 
     </main>
