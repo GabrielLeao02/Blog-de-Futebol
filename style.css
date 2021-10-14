@@ -232,3 +232,79 @@ input::placeholder {
             text-align: center;
         }
     }
+    @media(max-width:376px) {
+        div.informacoes {
+            top: 55%;
+            left: 1%;
+            width: 100%;
+            max-width: 98%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+    
+
+    @media (max-width:376px) {
+        div.login {
+            top: 32%;
+            left: 1%;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            max-width: 95%;
+            margin-top: 20px;
+        }
+    }
+    @media (max-width:308px) {
+        input {
+           width: 80%;
+        }
+    }
+
+    @media (max-width:376px) {
+        div.info {
+            top: 07%;
+            left: 1%;
+            width: 100%;
+            max-width: 98%;
+            text-align: center;
+        }
+    }
+    @media(max-width:361px) {
+        div.informacoes {
+            top: 56%;
+            left: 1%;
+            width: 100%;
+            max-width: 98%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+    }
+    
+
+    @media (max-width:361px) {
+        div.login {
+            top: 32%;
+            left: 1%;
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            max-width: 95%;
+            margin-top: 20px;
+        }
+    }
+    @media (max-width:361px) {
+        input {
+           width: 80%;
+        }
+    }
+
+    @media (max-width:361px) {
+        div.info {
+            top: 06%;
+            left: 1%;
+            width: 100%;
+            max-width: 98%;
+            text-align: center;
+        }
+    }
