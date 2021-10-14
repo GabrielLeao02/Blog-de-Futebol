@@ -21,7 +21,7 @@ div.informacoes {
     right: 5%;
 }
 
-div.info {
+.info {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     top: 20%;
@@ -33,7 +33,7 @@ div.info {
     left: 5%;
 }
 
-div.login {
+.login {
     background-color: white;
     border-radius: 10px;
     width: 250px;
